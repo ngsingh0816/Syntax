@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		286EF7971AABB12C00ACFB6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286EF7961AABB12C00ACFB6D /* AppDelegate.m */; };
+		286EF7971AABB12C00ACFB6D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 286EF7961AABB12C00ACFB6D /* AppDelegate.mm */; };
 		286EF7991AABB12C00ACFB6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286EF7981AABB12C00ACFB6D /* main.m */; };
 		286EF79B1AABB12C00ACFB6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286EF79A1AABB12C00ACFB6D /* Images.xcassets */; };
 		286EF79E1AABB12C00ACFB6D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286EF79C1AABB12C00ACFB6D /* MainMenu.xib */; };
@@ -28,7 +28,7 @@
 		286EF7901AABB12C00ACFB6D /* Syntax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syntax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286EF7941AABB12C00ACFB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		286EF7951AABB12C00ACFB6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		286EF7961AABB12C00ACFB6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		286EF7961AABB12C00ACFB6D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		286EF7981AABB12C00ACFB6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		286EF79A1AABB12C00ACFB6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		286EF79D1AABB12C00ACFB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				286EF7951AABB12C00ACFB6D /* AppDelegate.h */,
-				286EF7961AABB12C00ACFB6D /* AppDelegate.m */,
+				286EF7961AABB12C00ACFB6D /* AppDelegate.mm */,
 				286EF79A1AABB12C00ACFB6D /* Images.xcassets */,
 				286EF79C1AABB12C00ACFB6D /* MainMenu.xib */,
 				286EF7931AABB12C00ACFB6D /* Supporting Files */,
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286EF7991AABB12C00ACFB6D /* main.m in Sources */,
-				286EF7971AABB12C00ACFB6D /* AppDelegate.m in Sources */,
+				286EF7971AABB12C00ACFB6D /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +398,7 @@
 				286EF7AF1AABB12C00ACFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286EF7B01AABB12C00ACFB6D /* Build configuration list for PBXNativeTarget "SyntaxTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +407,7 @@
 				286EF7B21AABB12C00ACFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

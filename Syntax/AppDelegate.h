@@ -9,7 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+{
+	IBOutlet NSTextView* inputView;
+	IBOutlet NSTextView* outputView;
+}
 
 @end
 
